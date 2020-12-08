@@ -5,16 +5,13 @@ import Col from "react-bootstrap/Col"
 import Row from "react-bootstrap/Row"
 
 
-import Fade from 'react-reveal/Fade'
 
-import { Link } from 'gatsby'
 import HeroImage from '../../../images/hero-image.jpg'
 import Logo from '../../../images/logo-image.png'
 
 import LazyHero from 'react-lazy-hero'
 
 import heroStyles from "./home.module.css";
-import CalendlyButton from '../../CalendlyButton'
 
 
 const Hero = () => (

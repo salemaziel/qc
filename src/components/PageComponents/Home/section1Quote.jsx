@@ -3,10 +3,8 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
-import Button from "react-bootstrap/Button";
 import Fade from 'react-reveal/Fade'
 
-import { Link } from "gatsby";
 
 import CalendlyButton from '../../CalendlyButton'
 

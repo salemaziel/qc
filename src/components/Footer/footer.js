@@ -1,6 +1,5 @@
 import React from "react";
-import { Link } from "gatsby";
-import { FaEnvelope, FaInstagram, FaFacebook, FaTwitter, FaResearchgate, FaLinkedin, FaMeetup } from 'react-icons/fa'
+import { FaEnvelope, FaInstagram, FaFacebook, FaMeetup } from 'react-icons/fa'
 
 
 import footerStyles from "./footer.module.css";
@@ -28,6 +27,7 @@ const Footer = () => (
             <ul className={footerStyles.iconBulleted}>
               <h3>Get In Touch</h3>
               <li className={footerStyles.Social}>
+                <a href="mailto:yourfriendnate@gmail.com"><FaEnvelope /></a>
               <a href="https://meetup.com"><FaMeetup /></a>
                   <a href="https://instagram.com"><FaInstagram /></a>
                   <a href="https://facebook.com"><FaFacebook /></a> 

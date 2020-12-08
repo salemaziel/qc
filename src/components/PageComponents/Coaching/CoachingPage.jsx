@@ -1,5 +1,4 @@
 import React from 'react'
-import {navigateTo} from 'gatsby'
 import HeroSectionTxtBtnRight from '../../HeroSectionTxtBtnRight'
 import SectionCTA from '../Home/sectionCTA'
 

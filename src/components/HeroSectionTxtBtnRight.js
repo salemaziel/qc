@@ -5,7 +5,6 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 import SectionHeader from "./SectionHeader";
-import Button from "react-bootstrap/Button";
 import "./HeroSectionTxtBtnRight.scss";
 
 function HeroSectionTxtBtnRight(props) {
@@ -50,13 +49,7 @@ function HeroSectionTxtBtnRight(props) {
               spaced={true}
               style={{color: 'black!important'}}
             />
-            {/*<Button
-              variant={props.buttonColor}
-              size="lg"
-              onClick={props.buttonOnClick}
-            >
-              {props.buttonText}
-            </Button>*/}
+
           </Col>
         </Row>
       </Container>

@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-minimal-bootstrap",
+  "name": "qc-website",
   "private": false,
-  "description": "minimal gatsby starter with react-bootstrap",
+  "description": "website for nathan serrato",
   "version": "0.1.0",
   "author": "salemaziel <contact@salemaziel.com>",
   "dependencies": {

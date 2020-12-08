@@ -18,6 +18,17 @@
     color: rgba(204, 174, 161, 1);
 }
 
+.navItem:hover,
+.navItem:focus,
+.navItem:focus-visible,
+.navItem:focus-within,
+.navItem:active,
+.navItem:visited {
+    color: rgba(204, 174, 161, 1);
+    text-decoration: none;
+}
+
+
 .navItem a {
     text-decoration: none;
     font-weight: 500;

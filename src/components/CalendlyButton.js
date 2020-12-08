@@ -1,6 +1,5 @@
 import React from 'react'
 import { openPopupWidget } from 'react-calendly';
-import Button from 'react-bootstrap/Button'
 import './CalendlyButton.scss'
 import calendlyStyle from './CalendlyButton.module.css'
 

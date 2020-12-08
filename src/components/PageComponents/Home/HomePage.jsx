@@ -1,9 +1,4 @@
 import React from "react";
-
-import SectionOne from "./sectionOne";
-import SectionTwo from "./sectionTwo";
-import SectionThree from "./sectionThree";
-
 import Hero from "./Hero";
 import SectionQuote from "./section1Quote";
 import SectionCTA from "./sectionCTA";
