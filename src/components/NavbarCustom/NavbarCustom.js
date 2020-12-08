@@ -108,7 +108,7 @@ const NavbarCustom = (props) => {
                 </Nav.Link>
               </Nav.Item>*/}
               <Nav.Item
-                href="/contact"
+                href="https://members.queerconscious.com/login"
                 className={navStyles.navItem}
                 rel="preload"
               >

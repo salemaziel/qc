@@ -5,6 +5,7 @@ module.exports = {
     title: `Queer Conscious`,
     description: `Coming Out Coach`,
     author: `@salemaziel`,
+    siteUrl: `https://queerconscious.com/`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -55,6 +56,6 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
-    `gatsby-plugin-sitemap`,
+    //`gatsby-plugin-sitemap`,
   ],
 };
