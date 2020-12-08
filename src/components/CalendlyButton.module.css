@@ -1,0 +1,40 @@
+.brownBtn {
+    background:rgba(204, 174, 161, 1);
+    background-color: rgba(204, 174, 161, 1);
+    border: solid rgba(247, 245, 225, 1) 2px;
+    color: white;
+      text-decoration: none;
+      padding: 1rem 2rem;
+      border-radius: 50px;
+      text-align: center;
+      font-weight: 700;
+      font-size: 22px;
+      outline: none;
+      border: none;
+      width: 100%;
+      border: 2px solid;
+      -webkit-transition: 0.4s all ease-in-out;
+      -o-transition: 0.4s all ease-in-out;
+    transition: 0.4s all ease-in-out;
+    display: block;
+    font-size: 1.5rem;
+    margin: 4rem auto;
+    box-shadow: 0px 5px 10px gray;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+  }
+  
+  .brownBtn:hover,
+  .brownBtn:focus,
+  .brownBtn:active {
+    /*background:rgba(204, 174, 161, 1);
+    background-color: rgba(204, 174, 161, 1);*/
+    background-color: black;
+    border: solid rgba(204, 174, 161, 1) 2px;
+      color: white!important;
+      border-radius: 50px;
+      -webkit-transition: 0.4s all ease-in-out;
+      -o-transition: 0.4s all ease-in-out;
+      transition: 0.4s all ease-in-out;
+  }
+  

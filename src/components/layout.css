@@ -1,0 +1,245 @@
+
+.bg-pinkbg{
+background-color:  #ddc1ce;;
+}
+
+.bg-lbrown{
+    background-color: #ccaea1;
+}
+
+.bg-dbrown {
+    background-color: #9e7870;
+}
+
+.nav-link {
+    color: black;
+    font-variant: small-caps;
+    margin: auto;
+    padding: 1rem 1.5rem;
+    font-size: 1.2rem;
+    border-radius: 50px;
+    border: 2px solid rgba(255, 255, 255, 0);
+    -webkit-transition: 0.4s all ease-in-out;
+    -o-transition: 0.4s all ease-in-out;
+    transition: 0.4s all ease-in-out;
+  }
+  
+  .nav-link:hover {
+    background: rgba(204, 174, 161, 1);
+    background-color: rgba(204, 174, 161, 1);
+    border-color: rgba(204, 174, 161, 1);
+    color: white;
+    border-radius: 50px;
+    -webkit-transition: 0.4s all ease-in-out;
+    -o-transition: 0.4s all ease-in-out;
+    transition: 0.4s all ease-in-out;
+  }
+  
+  .nav-link:active {
+    background: #fff;
+    color: white;
+    border-radius: 50px;
+  }
+  
+  .navbar-light .navbar-nav .nav-link {
+    /*color: rgba(20, 20, 20, 0.75);*/
+    /*color: white;*/
+    padding: 1rem 2rem;
+  }
+  .navbar-dark .navbar-nav .nav-link {
+    /*color: rgba(20, 20, 20, 0.75);*/
+    color: white;
+    padding: 1rem 2rem;
+  }
+  .navbar-light .navbar-nav .nav-link:hover {
+    color: white !important;
+    background: rgba(204, 174, 161, 1);
+    background-color: rgba(204, 174, 161, 1);
+    border-color: rgba(204, 174, 161, 1);
+    color: white;
+    border-radius: 50px;
+    transition: 0.4s all ease-in-out;
+  }
+  
+  .navbar-light .navbar-nav .nav-link:active {
+    color: white;
+    background: rgba(204, 174, 161, 1);
+    background-color: rgba(204, 174, 161, 1);
+    border-color: rgba(204, 174, 161, 1);
+    color: white;
+    border-radius: 50px;
+    transition: 0.4s all ease-in-out;
+  }
+
+
+.navbar-light .navbar-nav .nav-link:focus {
+    /*color: rgba(3,151,215,1);*/
+    color: white;
+    background: rgba(204, 174, 161, 1);
+    background-color: rgba(204, 174, 161, 1);
+    border-color: rgba(204, 174, 161, 1);
+    color: white;
+    border-radius: 50px;
+    transition: 0.4s all ease-in-out;
+  }
+  
+  a.dropdown-item {
+    color: rgba(204, 174, 161, 1);
+    font-size: 1.25rem;
+  }
+  
+  a.dropdown-item:hover,
+  a.dropdown-item:active,
+  a.dropdown-item:focus {
+    color: #fff;
+    text-decoration: none;
+    background-color: rgba(204, 174, 161, 1);
+  }
+
+
+
+.brown-btns {
+    background:rgba(204, 174, 161, 1);
+    background-color: rgba(204, 174, 161, 1);
+    border: solid rgba(247, 245, 225, 1) 2px;
+    color: white;
+      text-decoration: none;
+      padding: 1rem 2rem;
+      border-radius: 50px;
+      text-align: center;
+      font-weight: 700;
+      font-size: 22px;
+      outline: none;
+      border: none;
+      width: 100%;
+      max-width: 250px;
+      border: 2px solid;
+      -webkit-transition: 0.4s all ease-in-out;
+      -o-transition: 0.4s all ease-in-out;
+    transition: 0.4s all ease-in-out;
+    display: block;
+    margin: auto;
+  }
+  
+  .brown-btns:hover,
+  .brown-btns:focus,
+  .brown-btns:active {
+    /*background:rgba(204, 174, 161, 1);
+    background-color: rgba(204, 174, 161, 1);*/
+    background-color: black;
+    border: solid rgba(204, 174, 161, 1) 2px;
+      color: white!important;
+      border-radius: 50px;
+      -webkit-transition: 0.4s all ease-in-out;
+      -o-transition: 0.4s all ease-in-out;
+      transition: 0.4s all ease-in-out;
+  }
+  
+
+.img-fluid {
+    margin:auto;
+    width: 100%;
+
+}
+
+.logoHero {
+    width: 80%;
+    margin: -20rem auto auto 40rem;
+    max-width: 500px;
+}
+
+
+
+
+
+
+
+.NoDesktop {
+    display: none;
+}
+
+.NoMobile {
+    display: flex;
+}
+
+
+@media screen and (min-width: 2400px) {
+
+    .NoDesktop {
+        display: none;
+    }
+    
+    .NoMobile {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 1680px) {
+    .NoDesktop {
+        display: none;
+    }
+    
+    .NoMobile {
+        display: block;
+    }
+
+}
+
+
+@media screen and (max-width: 1280px) {
+    .NoDesktop {
+        display: none;
+    }
+    
+    .NoMobile {
+        display: block;
+    }
+    
+}
+
+@media screen and (max-width: 980px) {
+    .NoDesktop {
+        display: block;
+    }
+    
+    .NoMobile {
+        display: none;
+    }
+    
+}
+
+
+@media screen and (max-width: 767px) {
+    .NoDesktop {
+        display: block;
+    }
+    
+    .NoMobile {
+        display: none;
+    }
+    
+}
+
+
+@media screen and (max-width: 480px) {
+    .NoDesktop {
+        display: block;
+    }
+    
+    .NoMobile {
+        display: none;
+    }
+    
+}
+
+
+@media screen and (max-width: 360px) {
+    .NoDesktop {
+        display: block;
+    }
+    
+    .NoMobile {
+        display: none;
+    }
+    
+}

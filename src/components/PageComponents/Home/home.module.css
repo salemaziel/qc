@@ -1,0 +1,537 @@
+
+.HeroSection {
+  position: relative; 
+  /*background: linear-gradient(to top, rgba(255, 255, 255, 0.1) 33%, rgba(255, 255, 255, 0.1) 90%, rgba(255, 255, 255, .9) 100%), url("../../../images/hero-image.jpg");*/
+  background: url("../../../images/hero-image.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 0;
+  min-height: 40rem;
+  margin: auto auto auto auto;
+}
+.HeroSection h1 {
+  font-weight: 700;
+  font-size: 55px;
+  margin: 0px;
+  padding: 0px;
+  text-transform: uppercase;
+  text-align: left;
+  color: #6d0073;
+}
+.HeroSection h1 span {
+  color: #0397d7;
+}
+.HeroSection p {
+  font-weight: 400;
+  font-size: 22px;
+  margin: 0px;
+  padding: 20px 0px;
+  text-transform: capitalize;
+  text-align: left;
+  color: #6d0073;
+  /*font-family: 'Open Sans', sans-serif;*/
+  font-family: 'Roboto Condensed', sans-serif;
+  letter-spacing: 1.5px;
+  word-spacing: 3px;
+  text-shadow: 2px 2px 2px rgb(170, 209, 224);
+}
+.HeroSection a.blue-btns {
+  display: inline-block;
+  vertical-align: top;
+  background: #0397d7;
+  color: #ffffff;
+  border-color: #0397d7;
+}
+
+.HeroSection a.blue-btns:hover {
+  background: #25ACDF;
+  background-color: #25ACDF;
+  border-color: #25ACDF;
+  color: white!important;
+  border-radius: 50px;
+  -webkit-transition: 0.4s all ease-in-out;
+  -o-transition: 0.4s all ease-in-out;
+  transition: 0.4s all ease-in-out;
+}
+
+.HeroSection hr {
+  color: #25ACDF;
+  border-color: rgba(109,0,115,0.37);
+  border-width: 2px;
+}
+
+.BelowHero {
+  background-color: white;
+  margin: 1rem auto;
+  padding: 2rem;
+  height: 20rem;
+}
+
+.BelowHero h3 {
+  text-align: center;
+    font-weight: 400;
+    color: #4f5875;
+    margin: 0px;
+    padding: 0px;
+    font-size: 45px;
+    text-transform: uppercase;
+}
+
+.BelowHero p {
+  margin: auto;
+  padding: 3rem;
+  color: #0397d7;
+  font-size: 1.3rem;
+}
+
+.ReversedRow {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+}
+
+.AddressTitle {
+  text-align: center;
+  color: #0397d7;
+}
+
+.NewPatientSection {
+  position: relative; 
+  /*background-image: linear-gradient(to bottom, rgba(0, 132, 196, 0.75) 33%, rgba(0, 132, 196, 0.45) 66%, rgba(255, 255, 255, 1) 100%), url('../../../images/woman-in-red-tank-top-and-black-shorts-running-on-track-3763996.jpg');*/
+  background-color: white;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 75px 0px 150px 0px;
+  min-height: 30rem;
+}
+.NewPatientSection h1 {
+  font-weight: 700;
+  font-size: 55px;
+  margin: 0px;
+  padding: 0px;
+  text-transform: uppercase;
+  text-align: left;
+  color: #ffffff;
+}
+/*
+.NewPatientSection h2 {
+  font-weight: 700;
+  font-size: 46px;
+  font-family: "Carme", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000;
+  letter-spacing: 3px;
+  word-spacing: 2px;
+}
+*/
+.NewPatientSection p {
+  font-weight: 700;
+  font-size: 32px;
+  font-family: "Carme", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000;
+}
+/*
+.NewPatientSection:after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 132, 196, 0.75),
+    rgba(255, 255, 255, 0.8) 100%
+  );
+  z-index: -1;
+}*/
+
+
+.DeserveText {
+  margin: auto auto 10rem auto;
+  padding: 2rem 0;
+}
+.NewPatientSection p {
+  font-weight: 400;
+  font-size: 20px;
+  margin: auto;
+  padding: 20px 0px;
+  text-transform: none;
+  text-align: center;
+  color: #000;
+}
+
+
+/*
+background-image: linear-gradient(to bottom, rgba(0, 132, 196, 0.55) 33%, rgba(0, 132, 196, 0.45) 66%, rgba(0, 132, 196, 0.25) 100%), url('../images/people-running-marathon.jpeg');
+*/
+/*
+.CenterDetails:after {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	content: "";
+	background: -webkit-gradient(linear, left top, right top, from(rgba(0,132,196,0.75)), to(rgba(0,132,196,0)));
+	background: linear-gradient(to right, rgba(0,132,196,0.5) 100%, rgba(0,132,196,0) 100%);
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bf0084c4', endColorstr='#000084c4', GradientType=1 );
+	z-index: -1;
+}*/
+
+.HeroMobile {
+  display: none;
+  line-height: 30px;
+  padding: 0;
+  margin: 0;
+}
+
+
+.qcRow {
+  margin-top: 35rem;
+}
+
+
+
+@media screen and (min-width: 2400px) {
+  .HeroSection {
+    background-position: initial;
+    height: 60vh;
+  }
+}
+
+
+@media screen and (max-width:1680px) {
+
+  .HeroMobile {
+    display: none;
+    line-height: 30px;
+    padding: 0;
+    margin: 0;
+  }
+  .HeroMobileCTA {
+    display: none;
+  }
+}
+@media screen and (max-width:1280px) {
+  .HeroMobile {
+    display: none;
+    line-height: 30px;
+    padding: 0;
+    margin: 0;
+  }
+  .HeroMobileCTA {
+    display: none;
+  }
+}
+
+
+
+@media screen and (max-width: 1024px) {
+  .HeroSection {
+    padding: 50px 0px 100px 0px;
+  }
+
+  .HeroMobile {
+    display: none;
+    line-height: 30px;
+    padding: 0;
+    margin: 0;
+  }
+  .HeroMobileCTA {
+    display: none;
+  }
+  .HeroSection h1 {
+    font-size: 45px;
+  }
+  .HeroSection p {
+    font-size: 18px;
+  }
+  .NewPatientSection {
+    padding: 50px 0px 100px 0px;
+  }
+  .NewPatientSection h1 {
+    font-size: 45px;
+  }
+  .NewPatientSection p {
+    font-size: 18px;
+  }
+}
+
+
+
+
+@media screen and (max-width: 980px) {
+  .HeroSection {
+    padding: 50px 0px 0px 0px;
+    position: relative; 
+    /*background: linear-gradient(to top, rgba(255, 255, 255, 0.1) 33%, rgba(255, 255, 255, 0.1) 90%, rgba(255, 255, 255, .9) 100%), url("../../../images/elite-care-chiro-hero-bg-young-woman.jpeg");*/
+    background: url("../../../images/hero-image.jpg");
+    background-position: 70% center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 30rem;
+    margin: 20% auto auto auto;
+  }
+
+  .HeroMobile {
+    display: block;
+    line-height: 30px;
+    padding: 5%;
+    margin: auto;
+    height: auto;
+  }
+
+
+
+  .HeroMobileCTA {
+    display: flex;
+    line-height: 80px;
+    border-bottom: solid 1px transparent /*rgba(0,0,0,.05)*/;
+    flex-direction: row;
+    flex-wrap: nowrap;
+        -moz-justify-content: center;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+        -moz-align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+        -moz-align-content: center;
+    -webkit-align-content: center;
+    -ms-align-content: center;
+    align-content: center;
+    text-align: center;
+    margin: auto 0;
+    padding-bottom: 2rem;
+    height: 100px;
+  }
+
+
+  .HeroSection h1 {
+    font-size: 35px;
+  }
+  .HeroSection p {
+    font-size: 16px;
+  }
+
+  .TimeTable {
+    margin: -15% 0 7% 0;
+  }
+
+  .ReversedRow {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .MapResponsive {
+    border-radius: 0px 0px 30px 30px;
+  }
+
+  .MapResponsive iframe {
+    border-radius: 0px 0px 30px 30px;
+  }
+
+  .MapResponsive img {
+    border-radius: 0px 0px 30px 30px;
+    padding: 5px 5px 0px 5px;
+  }
+
+
+  .NewPatientSection {
+    padding: 50px 0px;
+    margin: 3rem auto;
+    
+  }
+  .NewPatientSection h1 {
+    font-size: 35px;
+  }
+/*
+  .NewPatientSection h2 {
+    font-size: 28px;
+    margin: 0;
+    width: 80%;
+  }
+*/
+  .NewPatientSection p {
+    font-size: 16px;
+  }
+
+
+
+}
+
+
+
+
+@media screen and (max-width: 780px) {
+  .HeroSection {
+    padding: 30px 0px 0px 0px;
+    position: relative; 
+    /*background: linear-gradient(to top, rgba(255, 255, 255, 0.1) 33%, rgba(255, 255, 255, 0.1) 90%, rgba(255, 255, 255, .9) 100%), url("../../../images/elite-care-chiro-hero-bg-young-woman.jpeg");*/
+    background: url("../../../images/hero-image.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 20rem;
+  }
+  .HeroMobile {
+    display: block;
+    line-height: 30px;
+    padding: 10% 5%;
+    margin: 0;
+  }
+
+  .HeroMobileCTA {
+    display: flex;
+    line-height: 30px;
+    border-bottom: solid 1px rgba(0,0,0,.05);
+  }
+  .HeroSection h1 {
+    font-size: 35px;
+  }
+  .HeroSection p {
+    font-size: 18px;
+  }
+
+  .NewPatientSection {
+    padding: 30% 10%;
+    margin: 2rem auto;
+  }
+  .NewPatientSection h1 {
+    font-size: 26px;
+  }
+  .NewPatientSection p {
+    font-size: 18px;
+  }
+
+.HeroTitle h1 {
+  margin: -30%;
+}
+
+h1 .HeroTitle {
+  margin: auto;
+}
+
+
+
+}
+
+
+
+
+
+@media screen and (max-width:480px) {
+  .HeroSection {
+    padding: 0;
+    position: relative; 
+    /*background: linear-gradient(to top, rgba(255, 255, 255, 0.1) 33%, rgba(255, 255, 255, 0.1) 90%, rgba(255, 255, 255, .9) 100%), url("../../../images/elite-care-chiro-hero-bg-young-woman.jpeg");*/
+    background-position:  50% 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 10rem;
+    margin: auto auto auto auto;
+  }
+  .HeroMobile {
+    display: block;
+    line-height: 30px;
+    padding: 5%;
+    margin: 0;
+    height: auto;
+  }
+
+  .HeroTitle h1 {
+    margin: -40% 0 0 0;
+  }
+
+  h1 .HeroTitle {
+      margin: -40% 0 0 0;
+  }
+
+  .HeroMobileCTA {
+    display: flex;
+    line-height: 80px;
+    border-bottom: none;
+    margin: auto 0;
+    height: 150px;
+    }
+
+    .HeroMobileCTA p {
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 30px;
+      margin: auto;
+      padding: 0.5rem;
+      text-transform: capitalize;
+      text-align: center;
+      color: #0397d7;
+      /*font-family: 'Open Sans', sans-serif;*/
+      font-family: 'Roboto Condensed', sans-serif;
+      letter-spacing: 1.5px;
+      word-spacing: 3px;
+      text-shadow: 2px 2px 2px #b9c8cd;
+    }
+
+  .CTAIcon {
+    min-width: 30px;
+  }
+
+  .ReversedRow {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap-reverse;
+  }
+
+
+    .CenterDetailsMobile {
+      min-height: 5rem;
+    }
+
+    .NewPatientSection {
+      margin: auto;
+      padding: 35% 0%;
+    }
+
+    .NewPatientSection p {
+      font-size: 18px;
+    }
+
+
+
+
+}
+
+@media screen and (max-width:360px) {
+  .HeroSection {
+    padding: 30px 0px 0px 0px;
+    position: relative; 
+    /*background: linear-gradient(to top, rgba(255, 255, 255, 0.1) 33%, rgba(255, 255, 255, 0.1) 90%, rgba(255, 255, 255, .9) 100%), url("../../../images/elite-care-chiro-hero-bg-young-woman.jpeg");*/
+    background-position:  70% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 20rem;
+    margin: auto auto auto;
+  }
+
+  .HeroMobileCTA {
+    display: block;
+    line-height: 30px;
+    border-bottom: solid 1px rgba(0,0,0,.05);
+    padding: 0 0 10px 0;
+    padding-bottom: 10px;
+    margin: 0 0 30px 0;
+    margin-bottom: 30px;
+  }
+
+}
+
