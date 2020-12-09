@@ -1,6 +1,8 @@
 import React from "react";
 import Section from "./Section";
 import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 import SectionHeader from "./SectionHeader";
 import Fade from 'react-reveal/Fade'
 
@@ -28,8 +30,22 @@ function HeroSectionTextOnly(props) {
           size={1}
           spaced={true}
           className="text-center"
+          description1={props.description1}
+          description2={props.description2}
+          description3={props.description3}
+          description4={props.description4}
+          description5={props.description5}
+          description6={props.description6}
+          description7={props.description7}
         />
         </Fade>
+        <Row>
+          <Col>
+              <div className="image fit" >
+                <img src={props.bottomPic} alt={props.bottomPicAlt} />
+              </div>
+          </Col>
+        </Row>
       </Container>
     </Section>
   );

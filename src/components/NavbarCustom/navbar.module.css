@@ -26,9 +26,14 @@
 .navItem:visited {
     color: rgba(204, 174, 161, 1);
     text-decoration: none;
+    background-color: transparent;
 }
 
 
+
+
+
+/*
 .navItem a {
     text-decoration: none;
     font-weight: 500;
@@ -42,3 +47,4 @@
     box-shadow: 0px 1px 10px 0px black;
 
 }
+*/

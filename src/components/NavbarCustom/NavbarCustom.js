@@ -67,12 +67,37 @@ const NavbarCustom = (props) => {
               alignItems: "center",
             }}
           >
-            <Nav className="ml-auto" defaultActiveKey="/">
-              <Nav.Item to="/coaching" className={navStyles.navItem}>
+            <Nav 
+            className="ml-auto" 
+            defaultActiveKey="/"
+            onSelect={(selectedKey) => navigateTo(`${selectedKey}`)}
+            >
+              {/*<Nav.Item to="/coaching" className={navStyles.navItem}>
                 <Nav.Link as={Link} to="/coaching" active={false} rel="preload">
                   Coaching
                 </Nav.Link>
-              </Nav.Item>
+          </Nav.Item>*/}
+              <NavDropdown
+                as={Link}
+                href="/coaching"
+                to="/coaching"
+                eventKey="coaching"
+                title="Coaching"
+                id="nav-dropdown-coaching"
+                className={navStyles.navItem}
+              >
+                <NavDropdown.Item eventKey="/coaching">
+                  {" "}
+                  Coming Out Coaching{" "}
+                </NavDropdown.Item>
+                <NavDropdown.Item eventKey="/coaching/challenge">
+                  Queer Liberation Challenge
+                </NavDropdown.Item>
+                <NavDropdown.Item eventKey="/coaching/queerwayforward">
+                  Group Coaching
+                </NavDropdown.Item>
+              </NavDropdown>
+
               <Nav.Item to="/about" className={navStyles.navItem}>
                 <Nav.Link as={Link} to="/about" active={false} rel="preload">
                   About

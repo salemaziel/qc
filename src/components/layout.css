@@ -82,6 +82,11 @@ background-color:  #ddc1ce;;
     border-radius: 50px;
     transition: 0.4s all ease-in-out;
   }
+
+  nav div ul li {
+      background-color: transparent;
+      background: transparent!important;
+  }
   
   a.dropdown-item {
     color: rgba(204, 174, 161, 1);
