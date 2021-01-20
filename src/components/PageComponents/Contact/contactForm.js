@@ -1,7 +1,7 @@
 import React from "react"
 import { navigate } from "gatsby"
 import Form from "react-bootstrap/Form"
-//import Button from 'react-bootstrap/Button'
+import Button from 'react-bootstrap/Button'
 
 
 function encode(data) {
@@ -194,15 +194,16 @@ export default function ContactForm() {
         <Form.Group>
           <ul className="actions">
             <li style={{listStyle: 'none'}}>
-              <button
+              <Button
                 type="submit"
                 value="Send Message"
                 className="special brown-btns"
                 onChange={handleSubmit}
                 style={{display: 'inline'}}
+                className="btn-block brown-btns"
               >
                 Submit{" "}
-              </button>
+              </Button>
             </li>
           </ul>
         </Form.Group>

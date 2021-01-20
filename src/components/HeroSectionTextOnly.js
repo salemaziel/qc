@@ -29,7 +29,7 @@ function HeroSectionTextOnly(props) {
           listItem4={props.listItem4}
           size={1}
           spaced={true}
-          className="text-center"
+          className="text-center font-weight-bold h5"
           description1={props.description1}
           description2={props.description2}
           description3={props.description3}
@@ -39,10 +39,10 @@ function HeroSectionTextOnly(props) {
           description7={props.description7}
         />
         </Fade>
-        <Row>
-          <Col>
-              <div className="image fit" >
-                <img src={props.bottomPic} alt={props.bottomPicAlt} />
+        <Row className="justify-content-center">
+          <Col xs={4} md={4}>
+              <div className="w-100" >
+                <img src={props.bottomPic} alt={props.bottomPicAlt} className="w-100"/>
               </div>
           </Col>
         </Row>

@@ -29,7 +29,6 @@
         width: 100%;
         min-width: 100%;
         min-height: 25rem;
-        background-image: linear-gradient(to bottom, rgba(0, 132, 196, 0.55) 33%, rgba(0, 132, 196, 0.45) 66%, rgba(0, 132, 196, 0.25) 100%), url('');
         background-position: 70% 20%;
         background-size: cover;
         background-repeat: no-repeat;
@@ -52,12 +51,11 @@
         width: 100%;
         min-width: 100%;
         min-height: 20rem;
-        background-image: linear-gradient(to bottom, rgba(0, 132, 196, 0.55) 33%, rgba(0, 132, 196, 0.45) 66%, rgba(0, 132, 196, 0.25) 100%), url('');
         background-position: 50% 20%;
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: scroll;
-        margin: 2rem 0 1rem 0;
+        /*margin: 2rem 0 1rem 0;*/
         padding: 2rem 0 0;
 
     }

@@ -1,0 +1,39 @@
+.FaqItemNav {
+  cursor: pointer;
+  border-bottom: 1px solid #efefef;
+  margin: auto auto auto auto;
+  justify-content: center;
+  text-align: center;
+  color: rgba(204, 174, 161, 1);
+  width: 100%;
+  -webkit-transition: 0.4s all ease-in-out;
+  -o-transition: 0.4s all ease-in-out;
+  transition: 0.4s all ease-in-out;
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.subMenu {
+  background: linear-gradient(60deg,rgba(204, 174, 161, 1) 0%,rgba(204, 174, 161, 1) 100%);
+  font-size: 18px;
+  box-shadow: 5px 5px 15px 0px brown;
+  border-bottom-left-radius: 30px;
+  -webkit-transition: 0.4s all ease-in-out;
+  -o-transition: 0.4s all ease-in-out;
+  transition: 0.4s all ease-in-out; 
+  color: white
+}
+
+.subMenu a {
+  font-size: 18px;
+  -webkit-transition: 0.4s all ease-in-out;
+  -o-transition: 0.4s all ease-in-out;
+  transition: 0.4s all ease-in-out; 
+  color: white
+}
+.sub {
+  -webkit-transition: 0.4s all ease-in-out;
+  -o-transition: 0.4s all ease-in-out;
+transition: 0.4s all ease-in-out;
+}

@@ -21,7 +21,7 @@ const Hero = () => (
         /*imageSrc={props.bgImage}*/
         imageSrc={HeroImage}
         isCentered={true}
-        isFixed={true}
+        isFixed={false}
         minHeight="100vh"
         opacity={0.2}
         color='#000'

@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react"
 import HeroSectionTxtBtnRight from '../../../HeroSectionTxtBtnRight'
 import SectionCTA from '../../Home/sectionCTA'
 import HeroSectionCentered from '../../../HeroSectionCentered'
@@ -7,12 +7,12 @@ import HeroSectionTextOnly from '../../../HeroSectionTextOnly'
 
 import LogoImage from '../../../../images/logo-image.png'
 
-import ClimberSection from "./ClimberSection"
-import Climber from "../../../../images/original/challenge-page_climber.jpg"
+import ClimberSection from "../Challenge/ClimberSection"
+import QWF from "../../../../images/original/qwf.jpg"
 
-import OfferSection from "./OfferSection"
+import OfferSection from "../Challenge/OfferSection"
 
-const ChallengePage = (props) => {
+const QWFPage = (props) => {
     return(
         <>
               <HeroSectionCentered
@@ -21,11 +21,12 @@ const ChallengePage = (props) => {
         size="lg"
         bgImage={LeafBG}
         bgImageOpacity={1}
-        title="Queer Liberation"
+        title="A Queer Way Forward"
         subtitle="5day Challenge"
-        subtitle="If you avoid conflict to keep the peace, you start a war inside yourself."
-        buttonText="Register Now"
+        subtitle="8-Week Group Coaching"
+        buttonText="Apply Now"
         buttonColor="brown"
+        className=""
         /*buttonOnClick={() => {
           // Navigate to pricing page
           router.push("/pricing");
@@ -47,19 +48,19 @@ const ChallengePage = (props) => {
       listTitle2=""
       listItem3=""
       listItem4=""
-      description1="Do you constantly feel anxious, on edge, or fearful when thinking of the future of the LGBTQ+ community?"
-      description2="Do you find it difficult to fully express yourself in relationships, with family, or in your professional life?      "
+      description1="Are you finding it difficult surrounding yourself with an encouraging queer community?"
+      description2="Are you having trouble finding the confidence to truly be yourself and ask for what you want?      "
       description3="Are you struggling to find the confidence to say what you really feel or ask for what you want?      "
-      description4="Do you feel hopeless when it comes to having a meaningful and abundant life?      "
-      description5="Are you often cynical about the LGBTQ+ community at large?      "
-      description6="Do you feel limited by stereotypes around gender, sexuality, and body image?      "
-      description7="Do you struggle to connect with your own queer authenticity?      "
+      description4="Do you often think 'I'm not good enough', 'I could never', or 'I don't trust myself'?     "
+      description5="Do you feel limited by stereotypes around gender, sexuality, and body image?      "
+      description6="Are you getting in the way of your own love life and career goals?      "
+      description7="Or maybe you're lacking the motivation to get out of bed, let alone have goals for your life...      "
       bottomPic={LogoImage}
       bottomPicAlt="Queer Conscious"
     />
     <ClimberSection
     bg=""
-    bgImage={Climber}
+    bgImage={QWF}
     bgImageOpacity={1}
     size="md"
     textColor="white"
@@ -70,21 +71,16 @@ const ChallengePage = (props) => {
     bgImage=""
     size="md"
     className=""
-    offerTopTitle="Introducing a 5-day virtual experience where you will stop the
-    fear, hopelessness, and loneliness around your identity so you
-    can liberate your queer authenticity!"
-    offerMainTitle="In the Queer Liberation Challenge you will:"
-    list1="Move from fear, hopelessness, and loneliness to confidence,
-    empowerment, and freedom"
-    list2="Shift how you connect with yourself, others, and the world
-    around you"
-    list3="Discover how to re-wire your brain to live your identity,
-    purpose, and unique gifts"
-    list4="Develop a new relationship with your queer authenticity"
-    list5="Stop unhealthy patterns and emotions—start living confidently"
-    list6="Understand blocks around your queer identity"
-    offerValued="Valued at $1091.00"
-    offerPrice=" = ONLY $37.00 ="
+    offerTopTitle="​Get ready for the holidays with an 8-week group coaching program where you will stop the self-sabotage and find clarity in your values, purpose, and queer identity."
+    offerMainTitle="A Queer Way Forward will help you:"
+    list1="Stop getting in your own way and start holding yourself accountable"
+    list2="Move from self-doubt and insecurity, to clarity in your purpose and courage to get what you want"
+    list3="Learn effective communication skills to set healthy boundaries with those around you"
+    list4="Become aligned with your vision, values, and queer identity"
+    list5="Surround yourself with an encouraging queer community to keep you motivated"
+    list6="Develop healthy thought patterns, emotional intelligence, and achievable goals"
+    offerValued=""
+    offerPrice=""
     />
 
 
@@ -116,4 +112,4 @@ const ChallengePage = (props) => {
     )
 }
 
-export default ChallengePage
+export default QWFPage

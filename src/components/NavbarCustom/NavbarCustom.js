@@ -13,6 +13,8 @@ import navStyles from "./navbar.module.css";
 
 import { FaHome } from "react-icons/fa";
 
+import FaqNav from "../FaqNav";
+
 //then
 
 const NavbarCustom = (props) => {
@@ -67,10 +69,10 @@ const NavbarCustom = (props) => {
               alignItems: "center",
             }}
           >
-            <Nav 
-            className="ml-auto" 
-            defaultActiveKey="/"
-            onSelect={(selectedKey) => navigateTo(`${selectedKey}`)}
+            <Nav
+              className="ml-auto"
+              defaultActiveKey="/"
+              onSelect={(selectedKey) => navigateTo(`${selectedKey}`)}
             >
               {/*<Nav.Item to="/coaching" className={navStyles.navItem}>
                 <Nav.Link as={Link} to="/coaching" active={false} rel="preload">
@@ -182,12 +184,28 @@ const NavbarCustom = (props) => {
               <Link rel="preload" className={navStyles.navItem} to="/about">
                 About
               </Link>,
-              <Link rel="preload" className={navStyles.navItem} to="/coaching">
-                Coaching
-              </Link>,
+              <FaqNav
+                items={[
+                  {
+                    question: "Coaching",
+                    answer: "",
+                    listItem1: "",
+                    listItem2: "",
+                    linkTitle1: "What Is Coaching",
+                    link1: "/coaching",
+                    linkTitle2: "Queer Liberation Challenge",
+                    link2: "/coaching/challenge",
+                    linkTitle3: "Group Coaching",
+                    link3: "/coaching/queerwayforward",
+                  },
+                ]}
+              />,
 
               <Link rel="preload" className={navStyles.navItem} to="/community">
                 Community
+              </Link>,
+              <Link rel="preload" className={navStyles.navItem} to="/contact">
+                Contact
               </Link>,
               <a
                 rel="preload nofollow"
